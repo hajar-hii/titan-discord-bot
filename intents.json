@@ -1,17 +1,7 @@
 {
     "intents": [
 
-        {
-            "tag": "google",
-            "patterns": [
-                "google",
-                "search",
-                "internet"
-            ],
-            "responses": [
-                "Redirecting to Google..."
-            ]
-        },
+        
         {
             "tag": "greeting",
             "patterns": [
@@ -28,7 +18,7 @@
             "responses": [
                 "Hello",
                 "Good to see you again",
-                "Hi there, how can I help?"
+                "Hi there, how are you?"
             ],
             "context": [
                 ""
@@ -47,7 +37,7 @@
             "responses": [
                 "See you!",
                 "Have a nice day",
-                "Bye! Come back again soon."
+                "Wait ,Let me recommed you some songs"
             ],
             "context": [
                 ""
@@ -93,7 +83,7 @@
                 "What support is offered"
             ],
             "responses": [
-                "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. I can google search for you. Use format google: your query \n 4. I can get the present weather for any city. Use format weather: city name \n 5. I can get you the top 10 trending news in India. Use keywords 'Latest News' \n 6. I can get you the top 10 trending songs globally. Type 'songs' \n 7. I can set a timer for you. Enter 'set a timer: minutes to timer' \n 8. I can get the present Covid stats for any country. Use 'covid 19: world' or 'covid 19: country name' \n For suggestions to help me improve, send an email to ted.thedlbot.suggestions@gmail.com . Thank you!! "
+                "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes  .\nI can recommed you some amazing songs Thank you!! "
             ],
             "context": [
                 ""
@@ -172,17 +162,7 @@
                 "Glad I could make you laugh !"
             ]
         },
-        {
-            "tag": "programmer",
-            "patterns": [
-                "Who made you",
-                "who designed you",
-                "who programmed you"
-            ],
-            "responses": [
-                "I was made by Karan Malik."
-            ]
-        },
+        
         {
             "tag": "insult",
             "patterns": [
@@ -193,7 +173,7 @@
                 "idiot"
             ],
             "responses": [
-                "Well that hurts :("
+                "Well that hurts :(. Still you can talk with me"
             ]
         },
         {
@@ -231,30 +211,8 @@
                 "..."
             ]
         },
-        {
-            "tag": "karan",
-            "patterns": [
-                "who is he",
-                "who is that",
-                "who is karan",
-                "karan malik"
-            ],
-            "responses": [
-                "Head over to his any of his social profiles to find out! Linkedin: www.linkedin.com/in/karan-malik-3a39191a7 Github: https://github.com/Karan-Malik"
-            ]
-        },
-        {
-            "tag": "contact",
-            "patterns": [
-                "contact developer",
-                "contact karan",
-                "contact programmer",
-                "contact creator"
-            ],
-            "responses": [
-                "You can contact my creator at his Linkedin profile : www.linkedin.com/in/karan-malik-3a39191a7"
-            ]
-        },
+        
+        
         {
             "tag": "appreciate",
             "patterns": [
@@ -309,29 +267,8 @@
                 "Personally, I find Karan very inspiring. I might not be very fair though.."
             ]
         },
-        {
-            "tag": "cricket",
-            "patterns": [
-                "current cricket matches",
-                "cricket score"
-            ],
-            "responses": [
-                "..."
-            ]
-        },
-        {
-            "tag": "song",
-            "patterns": [
-                "top songs",
-                "best songs",
-                "hot songs",
-                " top 10 songs",
-                "top ten songs"
-            ],
-            "responses": [
-                "..."
-            ]
-        },
+        
+       
         {
             "tag": "greetreply",
             "patterns": [
@@ -344,34 +281,10 @@
                 "Good to know!"
             ]
         },
-        {
-            "tag": "timer",
-            "patterns": [
-                "set a timer"
-            ],
-            "responses": [
-                "..."
-            ]
-        },
-        {
-            "tag": "covid19",
-            "patterns": [
-                "covid 19 "
-            ],
-            "responses": [
-                "..."
-            ]
-        },
-        {
-            "tag": "suggest",
-            "patterns": [
-                "you are useless","useless","suggest","suggestions","you are bad"
-            ],
-            "responses": [
-                "Please mail your suggestions to ted.thedlbot.suggestions@gmail.com. Thank you for helping me improve!"
-            ]
-        },
-            {"tag": "riddle",
+        
+        
+        
+        {   "tag": "riddle",
             "patterns": [
                 "Ask me a riddle",
                 "Ask me a question",
@@ -393,13 +306,71 @@
             ]
         },
         {
-            "tag": "age",
-            "patterns": [
-                "how old are you","when were you made","what is your age"
+            "tag":"fine",
+            "patterns":[
+                "I am fine","I am awesome","I am good"
             ],
-            "responses": [
-                "I was made in 2020, if that's what you are asking!"
-            ]
+            "responses":["Hey I am also fine.How was your day?"]
+        },
+
+        {
+            "tag":"not fine",
+            "patterns":[
+                "Not in mood","Not so fine","I am not good"
+            ],
+            "responses":["What happended?How was your day?"]
+
+        },
+
+        {
+            "tag":"kalipp",
+            "patterns":[
+                "You idiot money donkey","What the f?","Who are you to ask me?"
+            ],
+            "responses":["Calm down friend.Can I help you?"]
+
+        },
+
+        {
+            "tag":"kalipp",
+            "patterns":[
+                "You idiot money donkey","What the f?","Who are you to ask me?"
+            ],
+            "responses":["Calm down friend.Can I help you?"]
+
+        },
+
+        {
+            "tag":"fail",
+            "patterns":["I will fail for exam","I am gonna fucking fail","I will fail in class"],
+            "responses":["Its gonna be fine","Just be fine"]
+            
+            
+        },
+
+        {
+            "tag":"happy",
+            "patterns":["I passed the B.A exams with first class results",
+                       "Heading to campus in the rain to take grad photos",
+                        "I am feeling awesome .,feeling awesome ",
+                        "I can't wait to just sleep in tomorrow!",
+                        "Took a nap for a few hours now watching Christmas movies",
+                        "i met an old friend of mine.",
+                        "Bought my first xmas gifts today",
+                        "Bought my first xmas gifts today",
+                        "I got a part time job",
+                        "I passed with good marks three subjects which I had previously failed",
+                        "Kanye West is kinda a lyrical genus",
+                        "I had sex",
+                        " And I was overwhelmed by this scene "
+                       ],
+            "responses":["Wow , Do you like to speak more?","Wow ,thats amazing","Are wah.Great"]          
+
+
+
+    
         }
+
+        
     ]
 }

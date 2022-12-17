@@ -1,12 +1,15 @@
 import discord
 import os
 from neuralintents import GenericAssistant
+from dotenv import load_dotenv
 
 
 
 chatbot=GenericAssistant('intents.json')
 chatbot.train_model()
 chatbot.save_model()
+load_dotenv()
+
 client=discord.Client(intents=discord.Intents.default())
 @client.event
 async def on_message(message):
@@ -20,5 +23,5 @@ async def on_message(message):
 
 
 
-client.run("MTA1MzU0NjAwODYzOTk3NTUwNA.GNi3B6.hgNQO8Vt6TtzjsFMbNZZMc3sJ-zQjlV4q626zs")
+client.run(os.getenv('TOKEN'))
 
