@@ -1,6 +1,6 @@
 
 # CHAT BOT SONG RECOMMENDATION SYSTEM
-#### Team Name : US
+#### Team Name : Titan
 #### Team Members : Meera, Saniya, Hajar, Akhila
 ## Breif idea
 This is a Chatbot Music Recommender Application. This application wouldn't be business
